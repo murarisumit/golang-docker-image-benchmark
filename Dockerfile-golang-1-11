@@ -1,0 +1,5 @@
+# [START all]
+FROM golang:1.11
+COPY main.go .
+CMD go run main.go
+# [END all]
